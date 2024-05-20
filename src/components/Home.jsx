@@ -47,7 +47,7 @@ class Home extends Component {
             <EmployeeContext.Provider value={{ employees: this.state.filteredResults, loadedAt: new Date(), doSearch: this.handleSearch }}>
                 <Container>
                     <Row>
-                        <Col><h2>Employee List</h2></Col>
+                        <Col><h2>ALL Employee List</h2></Col>
                     </Row>
                     <Row>
                         <Col><SearchBar /></Col>
